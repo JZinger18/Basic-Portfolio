@@ -1,9 +1,118 @@
-li {
-    float: left;
+/*body of html page*/
+body {
+	/*width: 1200px;*/
+	background: url("../images/concrete-texture.png");
+	margin: 0px;
+	padding: 0px;
 }
 
-a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
+/*div of nav header*/
+.header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	position: relative;
+	height: 100px;
+	
 }
+
+/*h1 tag inside nav header*/
+#nav-header {
+	background-color: #4aaaa5;
+	margin-top: 0px;
+	margin-left:100px;
+	color: #ffffff;
+	width: 200px;
+	bottom: 0px;
+	position: absolute;
+	margin-bottom: 0px;
+
+}
+
+/*ul in nav bar*/
+#nav{
+	float: right;
+	margin-right: 400px;
+	margin-top: 50px;
+	/*float: right;*/
+
+}
+
+
+
+
+
+.list {
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+display: inline;
+
+}
+
+
+
+h2 {
+	color: #4aaaa5;
+}
+
+
+.main_content {
+	background-color: #ffffff;
+	float: left;
+	width: 650px;
+	margin-right: 34px;
+	margin-left: 100px;
+	margin-bottom: 40px;
+}
+
+
+.side_bar {
+	width: 270px;
+	background-color: #ffffff;
+	float: left;
+	margin-right: 112px;
+
+}
+
+
+.connect_with_me {
+	width:60px;
+	height: 60px;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+	clear: both;
+	height: 1500px;
+	text-align: center;
+	vertical-align: content;
+	line-height: 100px;
+	background-color: #666666;
+}
+
+
+
+/*#nav li:not(:first-child):before {
+    content: " | ";
+}*/
+
+
+/*#navigation-bar {
+	float: right;
+
+}*/
+
+/*#navigation-bar > ul {
+	display: block
+}*/
+
+
